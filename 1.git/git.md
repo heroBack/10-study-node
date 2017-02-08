@@ -72,6 +72,7 @@ git status
 git add 文件名
 git add .
 git add -A
+git add - all 
 ```
 
 ## 将文件提交到历史区中

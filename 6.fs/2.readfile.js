@@ -23,7 +23,7 @@ fs.readFile('./age.txt','utf8',function (err,data) {
     school.age = data;
     out();
 });
-function out() {
+function out() {//读完了跳出
     Object.keys(school).length==2&&console.log(school);
 }
 
